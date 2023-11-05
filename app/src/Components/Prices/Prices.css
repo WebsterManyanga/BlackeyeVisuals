@@ -1,0 +1,33 @@
+* {
+
+}
+
+.prices__item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.price__title {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__title h2 {
+    text-decoration: underline;
+    text-decoration-color: #D0B8AC;
+    text-underline-offset: 8px;
+}
+ 
+.prices button {
+    font-size: 25px;
+    background: none;
+    border: none;
+    color: #D0B8AC;
+    display: block;
+    margin: 56px auto 0 auto;
+}

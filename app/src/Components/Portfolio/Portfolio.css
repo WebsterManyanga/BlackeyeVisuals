@@ -1,0 +1,18 @@
+
+.portfolio img {
+    max-width: 100%;
+}
+
+.portfolio p {
+    margin: 35px 0;
+}
+
+.portfolio button {
+    font-size: 25px;
+    background: none;
+    border: none;
+    color: #D0B8AC;
+    display: block;
+    margin: 56px auto 0 auto;
+    
+}

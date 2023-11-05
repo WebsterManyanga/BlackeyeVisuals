@@ -1,0 +1,25 @@
+.App__menu {
+    position: absolute;
+    top: 24px;
+    left: 5px;
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 35px;
+    z-index: 1;
+}
+
+.feature {
+    width: 90%;
+    margin:  0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.feature h1 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.feature p {
+    color: #fff;
+}

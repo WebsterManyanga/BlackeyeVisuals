@@ -1,0 +1,35 @@
+.socials {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 28px;
+    height: 100%;
+    gap: 28px;
+    z-index: 1;
+}
+
+.socials button {
+    background: none;
+    border: none;
+    color: #D0B8AC;
+    font-size: 25px;
+}
+
+.socials::before {
+    content: '';
+    width: 2px;
+    height: 187px;
+    background-color: #D0B8AC;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.socials::after {
+    content: '';
+    width: 2px;
+    height: 187px;
+    background-color: #D0B8AC;
+
+    margin: 0 auto;
+}
