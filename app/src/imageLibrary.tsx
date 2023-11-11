@@ -49,6 +49,10 @@ import pic48 from './assets/A-49.jpg'
 import pic49 from './assets/A-50.jpg'
 import pic50 from './assets/A-51.jpg'
 import pic51 from './assets/A.jpg'
+import pic52 from './assets/A-52.jpg';
+import pic53 from './assets/A-53.jpg';
+import pic54 from './assets/A-54.jpg';
+import pic55 from './assets/A-55.jpg';
 
 export const imageLibrary = [
     {
@@ -255,6 +259,24 @@ export const imageLibrary = [
         image: pic51,
         person: 'SELAM',
     },
+    {
+        image: pic52,
+        person: 'SARSHA',
+    },
     
+    {
+        image: pic53,
+        person: 'CHIEDZA & TAOMBERA',
+    },
+    
+    {
+        image: pic54,
+        person: 'CHIEDZA',
+    },
+    
+    {
+        image: pic55,
+        person: 'CHIEDZA',
+    },
 
 ]

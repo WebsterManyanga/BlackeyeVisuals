@@ -15,7 +15,6 @@ function App() {
       <Portfolio />
       <LatestWork />
       <Prices />
-      <Reviews />
       <Footer />
     </div>
   );

@@ -47,7 +47,8 @@
     }
 
     .prices__display {
-        display: flex;
+        display: grid;
+        grid-template-columns: 50% 50%;
         gap: 2%;
         width: 80%;
         position: relative;
