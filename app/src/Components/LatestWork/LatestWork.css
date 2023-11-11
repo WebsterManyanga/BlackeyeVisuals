@@ -2,6 +2,66 @@
     max-width: 100%;
 }
 
-.latest-work p {
-    margin: 35px 0;
+
+
+@media screen and (min-width: 768px) {
+
+    .latest-work__container {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: "a b" "a c";
+        gap: 0 45px;
+        box-sizing: border-box;
+        height: 80%;
+    }
+
+    .latest-work__detail {
+        grid-area: b;
+        margin: 0;
+        width: 80%;
+        line-height: 20px;
+        font-size: 12px;
+    } 
+
+    .latest-work__sample {
+        grid-area: c;
+        max-width: none;
+        max-height: 100%;
+        border: 1px solid white;
+    }
+
+    .latest-work__carousel-container {
+        grid-area: a;
+    }
+
+    .latest-work__carousel-container .carousel-root {
+        height: 100%;
+    }
+
+    .latest-work__carousel-container .carousel-slider {
+        height: 100%;
+    }
+
+    .latest-work__carousel-container .slider-wrapper {
+        height: 100%;
+    }
+    
+    .latest-work__carousel-container .slider {
+        height: 100%;
+    }
+
+    .latest-work__carousel-container .slide {
+        height: 100%;
+    }
+
+    .latest-work__carousel-container .slide div {
+        height: 100%;
+    }
+
+    .latest-work__carousel-container .slide img {
+        max-height: 100%;
+        width: auto !important;
+    }
+
 }

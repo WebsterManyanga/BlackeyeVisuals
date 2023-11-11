@@ -7,14 +7,25 @@
     height: 100%;
     gap: 28px;
     z-index: 1;
+    top: 5px;
+
 }
 
-.socials button {
+.socials a {
     background: none;
     border: none;
     color: #D0B8AC;
     font-size: 25px;
+    position: relative;
+    transition: transform 0.5s;
+
 }
+
+.socials a:hover {
+    transform: scale(1.2);
+} 
+
+
 
 .socials::before {
     content: '';
@@ -30,6 +41,32 @@
     width: 2px;
     height: 187px;
     background-color: #D0B8AC;
-
     margin: 0 auto;
+}
+
+.socials a::before {
+    position: absolute;
+    transform: translateX(-100%);
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px 5px 0 5px;
+}
+
+.socials__bigger {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.socials__insta::before {
+    content: '@blackeye_visuals_';
+}
+
+.socials__email::before {
+    content: 'info@blackeyevisuals.com';
+}
+
+.socials__whatsapp::before {
+    content: '+48123123123';
 }

@@ -1,5 +1,9 @@
-* {
 
+
+.prices img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
 }
 
 .prices__item {
@@ -7,9 +11,11 @@
     flex-direction: column;
     gap: 16px;
     color: #fff;
-    font-size: 17px;
-    margin-top: 50px;
+    font-size: 13px;
+    margin-bottom: 30px;
+
 }
+
 
 .price__title {
     font-size: 25px;
@@ -23,11 +29,43 @@
     text-underline-offset: 8px;
 }
  
-.prices button {
+.prices__order {
     font-size: 25px;
     background: none;
     border: none;
     color: #D0B8AC;
     display: block;
     margin: 56px auto 0 auto;
+    text-align: center;
+    transition: all 0.4s;
+}
+@media screen and (min-width: 768px) {
+
+    .prices {
+        position: relative;
+        height: fit-content !important;
+    }
+
+    .prices__display {
+        display: flex;
+        gap: 2%;
+        width: 80%;
+        position: relative;
+        padding-right: 28px;
+        height: 100%;
+    }
+
+    .prices__display::after {
+        content: '';
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        background-color: #D0B8AC;
+    }
+
+    .prices__order:hover {
+        transform: scale(1.1);
+        color: #fff;
+    }
 }

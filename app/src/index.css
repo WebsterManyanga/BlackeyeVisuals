@@ -1,20 +1,24 @@
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&display=swap');
 
+html {
+  background-color: #070707;
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #000;
   color: #D0B8AC;
 }
 
-button {
-  font-family: 'Open Sans', sans-serif;
+h1 {
+  font-family: 'Cinzel Decorative', serif;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

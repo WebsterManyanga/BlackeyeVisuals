@@ -1,3 +1,4 @@
+@import url('./menu.css');
 .header {
     height: 100vh;
     width: 100%;
@@ -8,7 +9,49 @@
     justify-content: end;
     padding-bottom: 73px;
     box-sizing: border-box;
+    position: relative;
 }
+
+.header__nav {
+    position: absolute;
+    top: 24px;
+    left: 5px;
+    color: #fff;
+    border: none;
+    font-size: 35px;
+    z-index: 1;
+    display: flex;
+    gap: 65px;
+    height: 50px;
+}
+
+.header__nav a {
+    width: 100%;
+    transition: all 0.4s;
+}
+
+
+.header__nav a:hover {
+    color: #D0B8AC;
+    transform: scale(1.1);
+}
+
+.header__menu {
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 35px;
+}
+
+.nav__item {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
 
 .header::after {
     content: '';
@@ -26,18 +69,74 @@
     gap: 79px;
     width: 80%;
     margin-left: 5px;
-    z-index: 1;
 }
 
 
 .header__text h1 {
     font-size: 50px;
     font-family: 'Cinzel Decorative', serif;
+    cursor: default;
+    user-select: none;
 }
 
-.header__text button {
+.header__text a {
     font-size: 25px;
     background: none;
     border: none;
     color: #D0B8AC;
+    transition: transform 0.5s;
+}
+
+.header__text a:hover {
+    transform: scale(1.1);
+}
+
+.header__text p {
+    color: #fff;
+    font-size: 16px;
+    width: 418px;
+    display: none;
+    line-height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        margin: 0 auto;
+        background-image: url('../../assets/black-white-minimal-portrait\ 2.png');
+        justify-content: center;
+    }
+
+    .header__nav {
+        left: 60px;
+    }
+
+    .nav__item {
+        display: block;
+    }
+
+    .header__nav {
+        display: flex;
+    }
+
+    .header__text {
+        gap: 47px;
+        width: 80%;
+        margin-left: 60px;
+    }
+
+    .header__text h1{
+        font-size: 80px;
+        width: 50px;
+        padding-top: 150px;
+    }
+
+    .header__text p {
+        display: block;
+    }
+
+    .header__readmore {
+        position: absolute;
+        bottom: 20px;
+    }
+    
 }
