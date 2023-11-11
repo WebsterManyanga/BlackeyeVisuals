@@ -5,7 +5,7 @@ import {BsArrowRight} from 'react-icons/bs';
 import { imageLibrary } from '../../imageLibrary';
 
 export default function Prices() {
-  const whatsappOrder = `https://wa.me/48579295460?text=Hi,%20I'd%20love%20to%20book%20a%20photoshoot%20with%you.`;
+  const whatsappOrder = `https://wa.me/48579295460?text=Hi,%20I'd%20love%20to%20book%20a%20photoshoot%20with%20you.`;
   return (
     <section className='feature prices' id='prices'>
       <h1>Prices</h1>

@@ -4,6 +4,7 @@
     width: 100%;
     background-image: url('../../assets/A-31.jpg');
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: end;

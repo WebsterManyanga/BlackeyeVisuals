@@ -15,7 +15,12 @@
     color: #fff;
     font-size: 14px;
     line-height: 22px;
+}
 
+.carousel-root p {
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100% !important;
 }
 
 @media screen and (min-width: 768px) {
