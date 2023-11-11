@@ -56,8 +56,8 @@ export default function Portfolio() {
 
       </div>
       {showPortfolio && <div id='morePortfolio' className={`more-portfolio`}>
-        <button className='more-portfolio__close' onClick={() => setShowPortfolio(false)}><AiOutlineClose/></button>
         <div className="more-portfolio__photos">
+          <button className='more-portfolio__close' onClick={() => setShowPortfolio(false)}><AiOutlineClose/></button>
           <img src={morePortfolio} alt="" />
         </div>
       </div>}

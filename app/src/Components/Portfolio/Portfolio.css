@@ -50,68 +50,12 @@
 
 .portfolio .more-portfolio__close {
     margin: 0 12px 0 auto;
-    font-size: 30px;
+    font-size: 50px;
     color: #000;
     position: absolute;
-}
+    top: 0;
+    right: 0;}
 
-.slide-in-right {
-	-webkit-animation: slide-in-right 0.5s linear both;
-	        animation: slide-in-right 0.5s linear both;
-}
-
-.slide-out-right {
-	-webkit-animation: slide-out-right 0.7s linear both;
-	        animation: slide-out-right 0.7s linear both;
-}
-
- @-webkit-keyframes slide-in-right {
-    0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-  }
-  @keyframes slide-in-right {
-    0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-    }
-  }
-  
-@-webkit-keyframes slide-out-right {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
-    }
-  }
-  @keyframes slide-out-right {
-    0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
-    }
-  }
-  
 @media screen and (min-width: 768px) {
 
     .portfolio {

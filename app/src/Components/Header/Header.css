@@ -2,7 +2,7 @@
 .header {
     height: 100vh;
     width: 100%;
-    background-image: url('../../assets/black-white-minimal-portrait\ 1.png');
+    background-image: url('../../assets/A-31.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -102,7 +102,7 @@
 @media screen and (min-width: 768px) {
     .header {
         margin: 0 auto;
-        background-image: url('../../assets/black-white-minimal-portrait\ 2.png');
+        background-image: url('../../assets/A-31\(2\).jpg');
         justify-content: center;
     }
 
