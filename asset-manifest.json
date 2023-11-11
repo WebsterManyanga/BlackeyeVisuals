@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BlackeyeVisuals/static/css/main.360ccfe1.css",
-    "main.js": "/BlackeyeVisuals/static/js/main.16283c27.js",
+    "main.js": "/BlackeyeVisuals/static/js/main.5abfb8e3.js",
     "static/js/787.0f8d78ff.chunk.js": "/BlackeyeVisuals/static/js/787.0f8d78ff.chunk.js",
     "static/media/A-34.jpg": "/BlackeyeVisuals/static/media/A-34.5d32d69706f6541f5eff.jpg",
     "static/media/A-35.jpg": "/BlackeyeVisuals/static/media/A-35.fba408ffae0a2f515fb5.jpg",
@@ -62,11 +62,11 @@
     "static/media/A-26.jpg": "/BlackeyeVisuals/static/media/A-26.cce8f41e966755764710.jpg",
     "index.html": "/BlackeyeVisuals/index.html",
     "main.360ccfe1.css.map": "/BlackeyeVisuals/static/css/main.360ccfe1.css.map",
-    "main.16283c27.js.map": "/BlackeyeVisuals/static/js/main.16283c27.js.map",
+    "main.5abfb8e3.js.map": "/BlackeyeVisuals/static/js/main.5abfb8e3.js.map",
     "787.0f8d78ff.chunk.js.map": "/BlackeyeVisuals/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.360ccfe1.css",
-    "static/js/main.16283c27.js"
+    "static/js/main.5abfb8e3.js"
   ]
 }
