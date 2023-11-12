@@ -1,8 +1,15 @@
 @import url('./menu.css');
+
+.header-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .header {
     height: 100vh;
     width: 100%;
-    background-image: url('../../assets/A-31.jpg');
+    background-image: url('../../assets/min/A-31.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -103,7 +110,7 @@
 @media screen and (min-width: 768px) {
     .header {
         margin: 0 auto;
-        background-image: url('../../assets/A-31\(2\).jpg');
+        background-image: url('../../assets/min/A-31\(2\).jpg');
         justify-content: center;
     }
 

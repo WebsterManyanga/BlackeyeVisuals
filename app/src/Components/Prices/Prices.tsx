@@ -3,6 +3,7 @@ import './Prices.css'
 import sample from '../../assets/pexels-atahan-demir-14696715 1.png';
 import {BsArrowRight} from 'react-icons/bs';
 import { imageLibrary } from '../../imageLibrary';
+import Picture from '../Picture/Picture';
 import LazyLoad from 'react-lazy-load';
 
 
@@ -13,7 +14,7 @@ export default function Prices() {
       <h1>Prices</h1>
       <div className="prices__display">
         <LazyLoad>
-          <img src={imageLibrary[50].image} alt="image"/>
+          <Picture image={imageLibrary[50]} />
         </LazyLoad>
         <div className="prices__items">
         <div className='prices__item'>

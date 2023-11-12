@@ -1,6 +1,6 @@
-import pic1 from './assets/A-2.jpg'
-import pic2 from './assets/A-3.jpg'
-import pic3 from './assets/A-4.jpg'
+import pic1 from './assets/min/A-2.jpg'
+import pic2 from './assets/min/A-3.jpg'
+import pic3 from './assets/min/A-4.jpg'
 import pic4 from './assets/A-5.jpg'
 import pic5 from './assets/A-6.jpg'
 import pic6 from './assets/A-7.jpg'
@@ -9,16 +9,16 @@ import pic8 from './assets/A-9.jpg'
 import pic9 from './assets/A-10.jpg'
 import pic10 from './assets/A-11.jpg'
 import pic11 from './assets/A-12.jpg'
-import pic12 from './assets/A-13.jpg'
+import pic12 from './assets/min/A-13.jpg'
 import pic13 from './assets/A-14.jpg'
 import pic14 from './assets/A-15.jpg'
 import pic15 from './assets/A-16.jpg'
-import pic16 from './assets/A-17.jpg'
+import pic16 from './assets/min/A-17.jpg'
 import pic17 from './assets/A-18.jpg'
 import pic18 from './assets/A-19.jpg'
 import pic19 from './assets/A-20.jpg'
-import pic20 from './assets/A-21.jpg'
-import pic21 from './assets/A-22.jpg'
+import pic20 from './assets/min/A-21.jpg'
+import pic21 from './assets/min/A-22.jpg'
 import pic22 from './assets/A-23.jpg'
 import pic23 from './assets/A-24.jpg'
 import pic24 from './assets/A-25.jpg'
@@ -37,246 +37,254 @@ import pic36 from './assets/A-37.jpg'
 import pic37 from './assets/A-38.jpg'
 import pic38 from './assets/A-39.jpg'
 import pic39 from './assets/A-40.jpg'
-import pic40 from './assets/A-41.jpg'
+import pic40 from './assets/min/A-41.jpg'
 import pic41 from './assets/A-42.jpg'
 import pic42 from './assets/A-43.jpg'
 import pic43 from './assets/A-44.jpg'
 import pic44 from './assets/A-45.jpg'
-import pic45 from './assets/A-46.jpg'
+import pic45 from './assets/min/A-46.jpg'
 import pic46 from './assets/A-47.jpg'
 import pic47 from './assets/A-48.jpg'
 import pic48 from './assets/A-49.jpg'
 import pic49 from './assets/A-50.jpg'
 import pic50 from './assets/A-51.jpg'
-import pic51 from './assets/A.jpg'
-import pic52 from './assets/A-52.jpg';
+import pic51 from './assets/min/A.jpg'
+import pic52 from './assets/min/A-52.jpg';
 import pic53 from './assets/A-53.jpg';
-import pic54 from './assets/A-54.jpg';
+import pic54 from './assets/min/A-54.jpg';
 import pic55 from './assets/A-55.jpg';
+import { PictureType } from './Components/types'
+import portfolio from './assets/morePortfolio.jpg'
 
-export const imageLibrary = [
+
+export const imageLibrary: PictureType[] = [
     {
         image: pic1,
-        person: 'SELAM',
+        model: 'SELAM',
     },
     {
         image: pic2,
-        person: 'WON',
+        model: 'WON',
     },
     {
         image: pic3,
-        person: 'WON',
+        model: 'WON',
     },
     {
         image: pic4,
-        person: 'WEBSTER',
+        model: 'WEBSTER',
     },
     {
         image: pic5,
-        person: '',
+        model: '',
     },
     {
         image: pic6,
-        person: '',
+        model: '',
     },
     {
         image: pic7,
-        person: 'HOPE',
+        model: 'HOPE',
     },
     {
         image: pic8,
-        person: 'HOPE',
+        model: 'HOPE',
     },
     {
         image: pic9,
-        person: 'HOPE',
+        model: 'HOPE',
     },
     {
         image: pic10,
-        person: 'HOPE',
+        model: 'HOPE',
     },
     {
         image: pic11,
-        person: 'HOPE',
+        model: 'HOPE',
     },
     {
         image: pic12,
-        person: 'TAPIWA',
+        model: 'TAPIWA',
     },
     {
         image: pic13,
-        person: 'TAPIWA',
+        model: 'TAPIWA',
     },
     {
         image: pic14,
-        person: 'TAPIWA',
+        model: 'TAPIWA',
     },
     {
         image: pic15,
-        person: 'TAPIWA',
+        model: 'TAPIWA',
     },
     {
         image: pic16,
-        person: 'TAPIWA',
+        model: 'TAPIWA',
     },
     {
         image: pic17,
-        person: 'TAPIWA',
+        model: 'TAPIWA',
     },
     {
         image: pic18,
-        person: 'JAIRE',
+        model: 'JAIRE',
     },
     {
         image: pic19,
-        person: 'JAIRE',
+        model: 'JAIRE',
     },
     {
         image: pic20,
-        person: 'JAIRE',
+        model: 'JAIRE',
     },
     {
         image: pic21,
-        person: 'ULA',
+        model: 'ULA',
     },
     {
         image: pic22,
-        person: 'ULA',
+        model: 'ULA',
     },
     {
         image: pic23,
-        person: 'ULA',
+        model: 'ULA',
     },
     {
         image: pic24,
-        person: 'ULA',
+        model: 'ULA',
     },
     {
         image: pic25,
-        person: 'ULA',
+        model: 'ULA',
     },
     {
         image: pic26,
-        person: 'JAIRE',
+        model: 'JAIRE',
     },
     {
         image: pic27,
-        person: '',
+        model: '',
     },
     {
         image: pic28,
-        person: 'JAIRE & TENDEKAI',
+        model: 'JAIRE & TENDEKAI',
     },
     {
         image: pic29,
-        person: '',
+        model: '',
     },
     {
         image: pic30,
-        person: 'TENDEKAI',
+        model: 'TENDEKAI',
     },
     {
         image: pic31,
-        person: 'TENDEKAI',
+        model: 'TENDEKAI',
     },
     {
         image: pic32,
-        person: 'TENDEKAI & TICHA',
+        model: 'TENDEKAI & TICHA',
     },
     {
         image: pic33,
-        person: '',
+        model: '',
     },
     {
         image: pic34,
-        person: 'TENDEKAI & TICHA',
+        model: 'TENDEKAI & TICHA',
     },
     {
         image: pic35,
-        person: '',
+        model: '',
     },
     {
         image: pic36,
-        person: '',
+        model: '',
     },
     {
         image: pic37,
-        person: '',
+        model: '',
     },
     {
         image: pic38,
-        person: 'ANDREWS',
+        model: 'ANDREWS',
     },
     {
         image: pic39,
-        person: 'ANDREWS',
+        model: 'ANDREWS',
     },
     {
         image: pic40,
-        person: 'LAURYN',
+        model: 'LAURYN',
     },
     {
         image: pic41,
-        person: 'LAURYN',
+        model: 'LAURYN',
     },
     {
         image: pic42,
-        person: '',
+        model: '',
     },
     {
         image: pic43,
-        person: '',
+        model: '',
     },
     {
         image: pic44,
-        person: '',
+        model: '',
     },
     {
         image: pic45,
-        person: 'CHELSEA',
+        model: 'CHELSEA',
     },
     {
         image: pic46,
-        person: 'CHELSEA',
+        model: 'CHELSEA',
     },
     {
         image: pic47,
-        person: 'CHELSEA',
+        model: 'CHELSEA',
     },
     {
         image: pic48,
-        person: 'CHELSEA',
+        model: 'CHELSEA',
     },
     {
         image: pic49,
-        person: 'CHELSEA',
+        model: 'CHELSEA',
     },
     {
         image: pic50,
-        person: 'CHELSEA',
+        model: 'CHELSEA',
     },
     {
         image: pic51,
-        person: 'SELAM',
+        model: 'SELAM',
     },
     {
         image: pic52,
-        person: 'SARSHA',
+        model: 'SARSHA',
     },
     
     {
         image: pic53,
-        person: 'CHIEDZA & TAOMBERA',
+        model: 'CHIEDZA & TAOMBERA',
     },
     
     {
         image: pic54,
-        person: 'CHIEDZA',
+        model: 'CHIEDZA',
     },
     
     {
         image: pic55,
-        person: 'CHIEDZA',
+        model: 'CHIEDZA',
     },
 
+    {
+        image: portfolio,
+        model: ''
+    }
 ]
+

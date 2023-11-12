@@ -1,11 +1,10 @@
 import React from 'react'
 import './LatestWork.css'
-import sample from '../../assets/Rectangle 15.png'
-import sample2 from '../../assets/Rectangle 24.png'
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useGlobalState } from '../../state';
 import { imageLibrary } from '../../imageLibrary';
+import Picture from '../Picture/Picture';
 import LazyLoad from 'react-lazy-load';
 
 
@@ -21,32 +20,28 @@ export default function LatestWork() {
           </p>
 
         <div className="latest-work__carousel-container">
-          <Carousel showArrows={!menuOpen} showIndicators={!menuOpen} showThumbs={false}  showStatus={false} autoPlay={true} infiniteLoop={true} interval={5000} preventMovementUntilSwipeScrollTolerance={true}>
-            <div>
-              <LazyLoad>
-                <img src={imageLibrary[44].image} alt="sample" />
-              </LazyLoad>
-                <p></p>
-            </div>
-            <div>
-              <LazyLoad>
-                <img src={imageLibrary[51].image} alt="sample" />
-              </LazyLoad>
-                <p></p>
-            </div>
-            <div>
-              <LazyLoad>
-                <img src={imageLibrary[53].image} alt="sample" />
-              </LazyLoad>
-                <p></p>
-            </div>
-          </Carousel>
+          <LazyLoad>
+            <Carousel showArrows={!menuOpen} showIndicators={!menuOpen} showThumbs={false}  showStatus={false} autoPlay={true} infiniteLoop={true} interval={5000} preventMovementUntilSwipeScrollTolerance={true}>
+              <div>
+                  <Picture image={imageLibrary[44]} />
+                  <p></p>
+              </div>
+              <div>
+                  <Picture image={imageLibrary[51]} />
+                  <p></p>
+              </div>
+              <div>
+                  <Picture image={imageLibrary[53]} />
+                  <p></p>
+              </div>
+            </Carousel>
+          </LazyLoad>
         </div>
         <p className='latest-work__detail'>
         Introducing our latest masterpiece: a visual tale meticulously crafted by BlackEye Visuals. Dive into a world where creativity knows no bounds and authenticity reigns supreme
         </p>
         <LazyLoad>
-          <img className='latest-work__sample' src={imageLibrary[39].image} alt="portrait" />
+          <Picture extraClasses='latest-work__sample' image={imageLibrary[39]} />
         </LazyLoad>
       </div>
 

@@ -4,6 +4,8 @@ import Socials from '../Socials/Socials'
 import {BsArrowRight} from 'react-icons/bs';
 import {slide as Menu} from 'react-burger-menu'
 import { useGlobalState } from '../../state';
+import Picture from '../Picture/Picture';
+import { imageLibrary } from '../../imageLibrary';
 
 export default function Header() {
 
@@ -29,6 +31,7 @@ export default function Header() {
   const zIndex = menuOpen ? {'zIndex': '0'} : {'zIndex': '1'};
 
   return (
+  <>
     <header className='header' id='home'>
         <nav className='header__nav'>
           <Menu isOpen={menuOpen} onOpen={menuIsOpen} onClose={() => menuIsClosed()}>
@@ -50,5 +53,7 @@ export default function Header() {
         </div>
         <Socials />
     </header>
+
+  </>
   )
 }
