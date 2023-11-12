@@ -11,7 +11,7 @@ const Picture = ({image, extraClasses = ''}: PropType) => {
     <>
     {!loaded && 
       <Blurhash 
-        hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
+        hash={image.blurHash}
         width={400}
         height={500}
         resolutionX={32}

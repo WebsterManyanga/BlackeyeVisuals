@@ -1,5 +1,6 @@
 export interface PictureType {
   image: string,
-  model: string
+  model: string,
+  blurHash: string
 }
 

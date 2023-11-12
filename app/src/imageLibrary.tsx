@@ -43,7 +43,7 @@ import pic42 from './assets/A-43.jpg'
 import pic43 from './assets/A-44.jpg'
 import pic44 from './assets/A-45.jpg'
 import pic45 from './assets/min/A-46.jpg'
-import pic46 from './assets/A-47.jpg'
+import pic46 from './assets/min/A-47.jpg'
 import pic47 from './assets/A-48.jpg'
 import pic48 from './assets/A-49.jpg'
 import pic49 from './assets/A-50.jpg'
@@ -61,230 +61,286 @@ export const imageLibrary: PictureType[] = [
     {
         image: pic1,
         model: 'SELAM',
+        blurHash: 'LCF=?$PUrSt,:z;2%%tR00wFx[tn'
     },
     {
         image: pic2,
         model: 'WON',
+        blurHash: 'L9A^ON$y%LI900Ne4:tS.Tfj$%w]'
     },
     {
         image: pic3,
         model: 'WON',
+        blurHash: 'L59G]q?8DgyE4TNIx{I8*0IUv|kX'
     },
     {
         image: pic4,
         model: 'WEBSTER',
+        blurHash: ''
     },
     {
         image: pic5,
         model: '',
+        blurHash: ''
     },
     {
         image: pic6,
         model: '',
+        blurHash: ''
     },
     {
         image: pic7,
         model: 'HOPE',
+        blurHash: ''
     },
     {
         image: pic8,
         model: 'HOPE',
+        blurHash: ''
     },
     {
         image: pic9,
         model: 'HOPE',
+        blurHash: ''
     },
     {
         image: pic10,
         model: 'HOPE',
+        blurHash: ''
     },
     {
         image: pic11,
         model: 'HOPE',
+        blurHash: ''
     },
     {
         image: pic12,
         model: 'TAPIWA',
+        blurHash: 'L7CPY80jMcI9~q-pZ~D%xV-oIVV?'
     },
     {
         image: pic13,
         model: 'TAPIWA',
+        blurHash: ''
     },
     {
         image: pic14,
         model: 'TAPIWA',
+        blurHash: ''
     },
     {
         image: pic15,
         model: 'TAPIWA',
+        blurHash: ''
     },
     {
         image: pic16,
         model: 'TAPIWA',
+        blurHash: 'LKFi778_v{_NDio}x^RODixvRkRO'
     },
     {
         image: pic17,
         model: 'TAPIWA',
+        blurHash: ''
     },
     {
         image: pic18,
         model: 'JAIRE',
+        blurHash: ''
     },
     {
         image: pic19,
         model: 'JAIRE',
+        blurHash: ''
     },
     {
         image: pic20,
         model: 'JAIRE',
+        blurHash: 'LNGlL@00_3of~qWBay-;?bM{t7xu'
     },
     {
         image: pic21,
         model: 'ULA',
+        blurHash: 'LHCGS%%g9GR5?c%gkWMx~q%gxuD%'
     },
     {
         image: pic22,
         model: 'ULA',
+        blurHash: ''
     },
     {
         image: pic23,
         model: 'ULA',
+        blurHash: ''
     },
     {
         image: pic24,
         model: 'ULA',
+        blurHash: ''
     },
     {
         image: pic25,
         model: 'ULA',
+        blurHash: ''
     },
     {
         image: pic26,
         model: 'JAIRE',
+        blurHash: ''
     },
     {
         image: pic27,
         model: '',
+        blurHash: ''
     },
     {
         image: pic28,
         model: 'JAIRE & TENDEKAI',
+        blurHash: ''
     },
     {
         image: pic29,
         model: '',
+        blurHash: ''
     },
     {
         image: pic30,
         model: 'TENDEKAI',
+        blurHash: ''
     },
     {
         image: pic31,
         model: 'TENDEKAI',
+        blurHash: ''
     },
     {
         image: pic32,
         model: 'TENDEKAI & TICHA',
+        blurHash: ''
     },
     {
         image: pic33,
         model: '',
+        blurHash: ''
     },
     {
         image: pic34,
         model: 'TENDEKAI & TICHA',
+        blurHash: ''
     },
     {
         image: pic35,
         model: '',
+        blurHash: ''
     },
     {
         image: pic36,
         model: '',
+        blurHash: ''
     },
     {
         image: pic37,
         model: '',
+        blurHash: ''
     },
     {
         image: pic38,
         model: 'ANDREWS',
+        blurHash: ''
     },
     {
         image: pic39,
         model: 'ANDREWS',
+        blurHash: ''
     },
     {
         image: pic40,
         model: 'LAURYN',
+        blurHash: 'LaIg=dx[_2t7~VV@xaNHt8jFxGni'
     },
     {
         image: pic41,
         model: 'LAURYN',
+        blurHash: ''
     },
     {
         image: pic42,
         model: '',
+        blurHash: ''
     },
     {
         image: pic43,
         model: '',
+        blurHash: ''
     },
     {
         image: pic44,
         model: '',
+        blurHash: ''
     },
     {
         image: pic45,
         model: 'CHELSEA',
+        blurHash: 'LVHwo:sk~WjX?cIpI;WBxvoeR*ax'
     },
     {
         image: pic46,
         model: 'CHELSEA',
+        blurHash: 'LID+rIof?Gxt~Wt7%LofNGt7WBay'
     },
     {
         image: pic47,
         model: 'CHELSEA',
+        blurHash: ''
     },
     {
         image: pic48,
         model: 'CHELSEA',
+        blurHash: ''
     },
     {
         image: pic49,
         model: 'CHELSEA',
+        blurHash: ''
     },
     {
         image: pic50,
         model: 'CHELSEA',
+        blurHash: ''
     },
     {
         image: pic51,
         model: 'SELAM',
+        blurHash: 'LEB|Hj%jE4Q,00Dgs*tnpfIAa{oa'
     },
     {
         image: pic52,
         model: 'SARSHA',
+        blurHash: 'L47-A]00NXS7wH-;9b%3$_9a_49F'
     },
     
     {
         image: pic53,
         model: 'CHIEDZA & TAOMBERA',
+        blurHash: ''
     },
     
     {
         image: pic54,
         model: 'CHIEDZA',
+        blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
     },
     
     {
         image: pic55,
         model: 'CHIEDZA',
+        blurHash: ''
     },
 
     {
         image: portfolio,
-        model: ''
+        model: '',
+        blurHash: 'LHF~El?H%Kkr~V~VxsNH%fxtxvn#'
     }
 ]
 
