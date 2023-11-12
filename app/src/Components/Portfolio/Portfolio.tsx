@@ -17,7 +17,7 @@ export default function Portfolio() {
   const onSelectMorePortfolio = () => {
     setShowPortfolio(true);
   }
-
+ 
   return (
     <section className='feature portfolio' id='portfolio'>
       <div className="lessporfolio">
@@ -48,7 +48,7 @@ export default function Portfolio() {
             "Welcome to BlackEye Visuals, where creativity meets authenticity in every frame. We are passionate about capturing moments that tell your unique story through the lens of our creative vision. Explore our portfolio and let our images speak to the genuine emotions, vivid colors, and captivating compositions that define our work. Join us on a journey of visual storytelling, where every shot is a masterpiece of your own narrative"
           </p>
           <LazyLoad>
-            <Picture image={imageLibrary[19]} extraClasses='portfolio'/>
+            <Picture image={imageLibrary[19]} extraClasses='portfolio__sample'/>
           </LazyLoad>
       </div>
       {!showPortfolio && <button className='portfolio__more' onClick={() => onSelectMorePortfolio()}><a href='#morePortfolio'>See More<BsArrowRight /></a></button>}

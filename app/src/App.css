@@ -1,4 +1,8 @@
 
+.LazyLoad {
+    height: 100% !important;
+}
+
 .feature {
     width: 90%;
     margin:  0 auto;
