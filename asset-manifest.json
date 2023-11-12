@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BlackeyeVisuals/static/css/main.73c8fcb1.css",
-    "main.js": "/BlackeyeVisuals/static/js/main.9f86755a.js",
+    "main.css": "/BlackeyeVisuals/static/css/main.1c804563.css",
+    "main.js": "/BlackeyeVisuals/static/js/main.93440806.js",
     "static/js/787.0f8d78ff.chunk.js": "/BlackeyeVisuals/static/js/787.0f8d78ff.chunk.js",
     "static/media/A-34.jpg": "/BlackeyeVisuals/static/media/A-34.5d32d69706f6541f5eff.jpg",
     "static/media/A-35.jpg": "/BlackeyeVisuals/static/media/A-35.fba408ffae0a2f515fb5.jpg",
@@ -41,7 +41,6 @@
     "static/media/A-30.jpg": "/BlackeyeVisuals/static/media/A-30.1c20f8654bb89b85f48a.jpg",
     "static/media/A-31.jpg": "/BlackeyeVisuals/static/media/A-31.989e678a6546035dc382.jpg",
     "static/media/A-40.jpg": "/BlackeyeVisuals/static/media/A-40.aab26fd06d4d9b9d02c2.jpg",
-    "static/media/A-47.jpg": "/BlackeyeVisuals/static/media/A-47.39cbd5a74bb3f9985bd3.jpg",
     "static/media/A-49.jpg": "/BlackeyeVisuals/static/media/A-49.f8b6656459d047db7e56.jpg",
     "static/media/A-39.jpg": "/BlackeyeVisuals/static/media/A-39.0dddea29d8d30c2e8613.jpg",
     "static/media/A-25.jpg": "/BlackeyeVisuals/static/media/A-25.e33506f151301ea3591b.jpg",
@@ -52,6 +51,7 @@
     "static/media/A-2.jpg": "/BlackeyeVisuals/static/media/A-2.133b1f94dea387e696d0.jpg",
     "static/media/A-54.jpg": "/BlackeyeVisuals/static/media/A-54.3fa75eea889f7b504ca6.jpg",
     "static/media/A.jpg": "/BlackeyeVisuals/static/media/A.8d3eb65ea347647eeb1d.jpg",
+    "static/media/A-47.jpg": "/BlackeyeVisuals/static/media/A-47.dbf7e69b16efea9f9960.jpg",
     "static/media/A-21.jpg": "/BlackeyeVisuals/static/media/A-21.2ad4a6e0728c5dedf629.jpg",
     "static/media/A-13.jpg": "/BlackeyeVisuals/static/media/A-13.98a55f891de82923309a.jpg",
     "static/media/A-17.jpg": "/BlackeyeVisuals/static/media/A-17.db3039c0ab541a37b023.jpg",
@@ -61,12 +61,12 @@
     "static/media/A-22.jpg": "/BlackeyeVisuals/static/media/A-22.65162f611f9af3033dfd.jpg",
     "static/media/A-31(2).jpg": "/BlackeyeVisuals/static/media/A-31(2).84292f18baab0c7d4563.jpg",
     "index.html": "/BlackeyeVisuals/index.html",
-    "main.73c8fcb1.css.map": "/BlackeyeVisuals/static/css/main.73c8fcb1.css.map",
-    "main.9f86755a.js.map": "/BlackeyeVisuals/static/js/main.9f86755a.js.map",
+    "main.1c804563.css.map": "/BlackeyeVisuals/static/css/main.1c804563.css.map",
+    "main.93440806.js.map": "/BlackeyeVisuals/static/js/main.93440806.js.map",
     "787.0f8d78ff.chunk.js.map": "/BlackeyeVisuals/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73c8fcb1.css",
-    "static/js/main.9f86755a.js"
+    "static/css/main.1c804563.css",
+    "static/js/main.93440806.js"
   ]
 }
