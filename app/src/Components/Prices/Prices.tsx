@@ -13,7 +13,7 @@ export default function Prices() {
       <h1>Prices</h1>
       <div className="prices__display">
         <LazyLoad>
-          <img src={imageLibrary[50].image} alt="image"  className=''/>
+          <img src={imageLibrary[50].image} alt="image"/>
         </LazyLoad>
         <div className="prices__items">
         <div className='prices__item'>

@@ -26,19 +26,19 @@ export default function LatestWork() {
               <LazyLoad>
                 <img src={imageLibrary[44].image} alt="sample" />
               </LazyLoad>
-                <p>{imageLibrary[44].person}</p>
+                <p></p>
             </div>
             <div>
               <LazyLoad>
                 <img src={imageLibrary[51].image} alt="sample" />
               </LazyLoad>
-                <p>{imageLibrary[51].person}</p>
+                <p></p>
             </div>
             <div>
               <LazyLoad>
                 <img src={imageLibrary[53].image} alt="sample" />
               </LazyLoad>
-                <p>{imageLibrary[53].person}</p>
+                <p></p>
             </div>
           </Carousel>
         </div>

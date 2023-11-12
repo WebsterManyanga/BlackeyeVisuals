@@ -30,31 +30,31 @@ export default function Portfolio() {
               <LazyLoad width={'100%'} height={'100%'}>
                 <img src={imageLibrary[0].image} alt="portrait" />
               </LazyLoad>
-                <p>{imageLibrary[0].person}</p>
+                <p></p>
             </div>
             <div>
             <LazyLoad width={'100%'} height={'100%'}>
               <img src={imageLibrary[1].image} alt="portrait" />
             </LazyLoad>
-              <p>{imageLibrary[1].person}</p>
+              <p></p>
             </div>
             <div>
             <LazyLoad width={'100%'} height={'100%'}>
               <img src={imageLibrary[45].image} alt="portrait" />
             </LazyLoad>
-              <p>{imageLibrary[45].person}</p>
+              <p></p>
             </div>
             <div>
             <LazyLoad width={'100%'} height={'100%'}>
               <img src={imageLibrary[15].image} alt="portrait" />
             </LazyLoad>
-              <p>{imageLibrary[15].person}</p>
+              <p></p>
             </div>
             <div>
             <LazyLoad width={'100%'} height={'100%'}>
               <img src={imageLibrary[20].image} alt="portrait" />
             </LazyLoad>
-              <p>{imageLibrary[20].person}</p>
+              <p></p>
             </div>
           </Carousel>
         </div>
