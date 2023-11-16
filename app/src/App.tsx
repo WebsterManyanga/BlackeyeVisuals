@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Portfolio />
+      <Portfolio />
       <LatestWork />
       <Prices />
       <Footer />
