@@ -6,6 +6,10 @@
     margin-bottom: 50px;
 }
 
+.latest-work__sample {
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 768px) {
 
     .latest-work__container {

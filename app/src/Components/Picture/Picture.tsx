@@ -1,6 +1,7 @@
 import { Blurhash } from "react-blurhash";
 import {PictureType } from "../types";
 import { useState } from "react";
+import LazyLoad from "react-lazy-load";
 
 const Picture = ({image, extraClasses = ''}: PropType) => {
   const [loaded, setLoaded] = useState(false);
