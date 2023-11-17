@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d632b37.css",
-    "main.js": "/static/js/main.1c919690.js",
+    "main.css": "/static/css/main.7ad5f94b.css",
+    "main.js": "/static/js/main.204f1a82.js",
     "static/js/787.0f8d78ff.chunk.js": "/static/js/787.0f8d78ff.chunk.js",
     "static/media/A-45.jpg": "/static/media/A-45.1ee6ea4950ea1c028841.jpg",
     "static/media/A-17.jpg": "/static/media/A-17.2d04da4c9d57d3df1f96.jpg",
@@ -9,10 +9,11 @@
     "static/media/A-15.jpg": "/static/media/A-15.c2233dc83653c2dff8d1.jpg",
     "static/media/A-42.jpg": "/static/media/A-42.9af99a3c856487062187.jpg",
     "static/media/A-28.jpg": "/static/media/A-28.8cb80e391550dcec12d2.jpg",
+    "static/media/A-21.jpg": "/static/media/A-21.0aeb782e572604d49757.jpg",
     "static/media/A-18.jpg": "/static/media/A-18.1a583c5e79630d4c9ff7.jpg",
     "static/media/A-19.jpg": "/static/media/A-19.bfb9c833ce54074a3a45.jpg",
     "static/media/A-50.jpg": "/static/media/A-50.bfb9c833ce54074a3a45.jpg",
-    "static/media/A-21.jpg": "/static/media/A-21.0aeb782e572604d49757.jpg",
+    "static/media/Chelsea.png": "/static/media/Chelsea.1ff0676767b1ca04e08f.png",
     "static/media/A-11.jpg": "/static/media/A-11.0d847d3d9aa93383ab95.jpg",
     "static/media/A-24.jpg": "/static/media/A-24.395ef5c39f2a2ad5bf32.jpg",
     "static/media/A-46.jpg": "/static/media/A-46.5af58720e2779d6b8ea1.jpg",
@@ -44,25 +45,27 @@
     "static/media/A-34.jpg": "/static/media/A-34.eff4aa896bb3034fc6d7.jpg",
     "static/media/A-3.jpg": "/static/media/A-3.772cc247e6f74ce520c0.jpg",
     "static/media/A-48.jpg": "/static/media/A-48.7ed073a63d54190ed454.jpg",
+    "static/media/A-31(3).jpg": "/static/media/A-31(3).56c3f977e21fe10875ea.jpg",
     "static/media/A-23.jpg": "/static/media/A-23.b5b305545c1095402052.jpg",
     "static/media/A-25.jpg": "/static/media/A-25.6210d4105f94e12804b0.jpg",
     "static/media/A-10.jpg": "/static/media/A-10.c8838f9f885ed18e6333.jpg",
     "static/media/A-13.jpg": "/static/media/A-13.65162f611f9af3033dfd.jpg",
     "static/media/A-7.jpg": "/static/media/A-7.0a5939bc7ace4515e7d6.jpg",
+    "static/media/Chelsea(1).png": "/static/media/Chelsea(1).a3d243c846e945e8a82c.png",
     "static/media/A-49.jpg": "/static/media/A-49.a0bc19b5497f22839f25.jpg",
-    "static/media/A-31(2).jpg": "/static/media/A-31(2).84292f18baab0c7d4563.jpg",
     "static/media/A-31.jpg": "/static/media/A-31.989e678a6546035dc382.jpg",
     "static/media/A-38.jpg": "/static/media/A-38.98b4e5f9d00b77919584.jpg",
     "static/media/A-44.jpg": "/static/media/A-44.bf8e24d5c865c90cfc7f.jpg",
     "static/media/A-41.jpg": "/static/media/A-41.62afa4c6e21b429024dd.jpg",
+    "static/media/WENDY WEBSITE.jpg": "/static/media/WENDY WEBSITE.d6c124945560e0c60e7e.jpg",
     "static/media/A-8.jpg": "/static/media/A-8.6f5f55dd3d63bc8d7518.jpg",
     "index.html": "/index.html",
-    "main.4d632b37.css.map": "/static/css/main.4d632b37.css.map",
-    "main.1c919690.js.map": "/static/js/main.1c919690.js.map",
+    "main.7ad5f94b.css.map": "/static/css/main.7ad5f94b.css.map",
+    "main.204f1a82.js.map": "/static/js/main.204f1a82.js.map",
     "787.0f8d78ff.chunk.js.map": "/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d632b37.css",
-    "static/js/main.1c919690.js"
+    "static/css/main.7ad5f94b.css",
+    "static/js/main.204f1a82.js"
   ]
 }
