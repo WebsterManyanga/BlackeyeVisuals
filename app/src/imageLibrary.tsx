@@ -49,15 +49,19 @@ import pic48 from './assets/min/A-48.jpg';
 import pic49 from './assets/min/A-49.jpg';
 import pic50 from './assets/min/A-50.jpg';
 import pic51 from './assets/min/A-51.jpg';
+import r1 from './assets/recents/Chelsea.png';
+import r2 from './assets/recents/Chelsea(1).png';
+import r3 from './assets/recents/WENDY WEBSITE.jpg';
 import { PictureType } from './Components/types'
 import portfolio from './assets/min/morePortfolio.jpg'
+import { BsRepeat1 } from 'react-icons/bs'
 
 
 export const imageLibrary: PictureType[] = [
     {
         image: pic1,
         model: 'ABE & SELAM',
-        blurHash: 'LCF=?$PUrSt,:z;2%%tR00wFx[tn'
+        blurHash: 'LEB|Hj%jE4Q,00Dgs*tnpfIAa{oa'
     },
     {
         image: pic2,
@@ -72,7 +76,7 @@ export const imageLibrary: PictureType[] = [
     {
         image: pic4,
         model: 'WON',
-        blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
+        blurHash: 'L59G]q?8DgyE4TNIx{I8*0IUv|kX'
     },
     {
         image: pic5,
@@ -102,7 +106,7 @@ export const imageLibrary: PictureType[] = [
     {
         image: pic10,
         model: 'JAIRE',
-        blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
+        blurHash: 'LUG]K*%Moft7t6WAM{f6_NozozWB'
     },
     {
         image: pic11,
@@ -117,7 +121,7 @@ export const imageLibrary: PictureType[] = [
     {
         image: pic13,
         model: 'ULA',
-        blurHash: 'L59G]q?8DgyE4TNIx{I8*0IUv|kX'
+        blurHash: 'LHCGS%%g9GR5?c%gkWMx~q%gxuD%'
     },
     {
         image: pic14,
@@ -218,7 +222,7 @@ export const imageLibrary: PictureType[] = [
     {
         image: pic33,
         model: '',
-        blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
+        blurHash: 'LBFO[R8{I8xB00.7bxN1_LIU-pxt'
     },
     {
         image: pic34,
@@ -233,7 +237,7 @@ export const imageLibrary: PictureType[] = [
     {
         image: pic36,
         model: 'WENDY',
-        blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
+        blurHash: 'LNLpdS~V?Hv|%Ms+-=IW?HRjIoNG'
     },
     {
         image: pic37,
@@ -298,12 +302,12 @@ export const imageLibrary: PictureType[] = [
     {
         image: pic48,
         model: 'JAIRE',
-        blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
+        blurHash: 'L87nRRD%-;WBIUM{ofRj~qM{t7Rj'
     },
     {
         image: pic49,
         model: 'TAPIWA',
-        blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
+        blurHash: 'L5E.|g00009FD%%MM{-;4m-;~qD%'
     },
     {
         image: pic50,
@@ -319,6 +323,21 @@ export const imageLibrary: PictureType[] = [
         image: portfolio,
         model: '',
         blurHash: 'LHF~El?H%Kkr~V~VxsNH%fxtxvn#'
+    },
+    {
+        image: r1,
+        model: 'CHELSEA',
+        blurHash: 'L7BfwvRP~W%L~V-pNGxtxtay%Loe'
+    },
+    {
+        image: r2,
+        model: 'DANIEL',
+        blurHash: 'LWOp#=~qRjIU~q%MayWB?bD%Rjt7'
+    },
+    {
+        image: r3,
+        model: 'WENDY',
+        blurHash: 'LHLWbF%gDhIUtmxa9ZRj_Nt7NGWW'
     }
 ]
 

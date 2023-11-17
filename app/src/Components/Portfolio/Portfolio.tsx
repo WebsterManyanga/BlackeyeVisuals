@@ -30,151 +30,22 @@ export default function Portfolio() {
                 <Picture image={imageLibrary[12]} />
               </div>
               <div>
-                <Picture image={imageLibrary[9]} />
-              </div>
-
-              <div>
-                <Picture image={imageLibrary[3]}/>
-              </div>
-              <div>
-                <Picture image={imageLibrary[8]} />
-              </div>
-
-              <div>
-                <Picture image={imageLibrary[10]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[11]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[14]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[15]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[19]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[24]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[25]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[26]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[27]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[28]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[29]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[31]} />
+                <Picture image={imageLibrary[3]} />
               </div>
               <div>
                 <Picture image={imageLibrary[32]} />
               </div>
               <div>
-                <Picture image={imageLibrary[33]} />
-              </div>
-              <div>
                 <Picture image={imageLibrary[35]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[36]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[39]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[47]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[48]} />
-              </div>
-            </Carousel>
-          </LazyLoad>
-          <LazyLoad>
-            <Carousel showArrows={!menuOpen} showIndicators={!menuOpen} showThumbs={false} showStatus={false} autoPlay={true} infiniteLoop={true} interval={5000} preventMovementUntilSwipeScrollTolerance={true} >
-              <div>
-                <Picture image={imageLibrary[12]} />
               </div>
               <div>
                 <Picture image={imageLibrary[9]} />
               </div>
-
               <div>
-                <Picture image={imageLibrary[3]}/>
-              </div>
-              <div>
-                <Picture image={imageLibrary[8]} />
-              </div>
-
-              <div>
-                <Picture image={imageLibrary[10]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[11]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[14]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[15]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[19]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[24]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[25]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[26]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[27]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[28]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[29]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[31]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[32]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[33]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[35]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[36]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[39]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[47]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[48]} />
+                <Picture image={imageLibrary[49]} />
               </div>
             </Carousel>
           </LazyLoad>
-
         </div>
           <p>
             "Welcome to BlackEye Visuals, where creativity meets authenticity in every frame. We are passionate about capturing moments that tell your unique story through the lens of our creative vision. Explore our portfolio and let our images speak to the genuine emotions, vivid colors, and captivating compositions that define our work. Join us on a journey of visual storytelling, where every shot is a masterpiece of your own narrative"
@@ -183,7 +54,7 @@ export default function Portfolio() {
             <Picture image={imageLibrary[48]} extraClasses='portfolio__sample'/>
           </LazyLoad>
       </div>
-      {!showPortfolio && <button className='portfolio__more' onClick={() => onSelectMorePortfolio()}><a href='#morePortfolio'>See More<BsArrowRight /></a></button>}
+      {!showPortfolio && <button className='portfolio__more'><a href='https://www.instagram.com/blackeye_visuals_/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=='>See More<BsArrowRight /></a></button>}
 
       </div>
       {showPortfolio && <div id='morePortfolio' className={`more-portfolio`}>

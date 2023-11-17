@@ -14,7 +14,7 @@ export default function Prices() {
       <h1>Prices</h1>
       <div className="prices__display">
         <LazyLoad>
-          <Picture image={imageLibrary[0]} />
+          <Picture image={imageLibrary[0]} extraClasses='kenburns-top-right'/>
         </LazyLoad>
         <div className="prices__items">
         <div className='prices__item'>

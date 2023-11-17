@@ -23,29 +23,24 @@ export default function LatestWork() {
           <LazyLoad>
             <Carousel showArrows={!menuOpen} showIndicators={!menuOpen} showThumbs={false}  showStatus={false} autoPlay={true} infiniteLoop={true} interval={5000} preventMovementUntilSwipeScrollTolerance={true}>
               <div>
-                <Picture image={imageLibrary[39]} />
+                <Picture image={imageLibrary[54]} />
                 <p></p>
               </div>
               <div>
-                <Picture image={imageLibrary[35]} />
+                <Picture image={imageLibrary[55]} />
                 <p></p>
               </div>
               <div>
-                  <Picture image={imageLibrary[27]} />
-                  <p></p>
-              </div>
-              <div>
-                  <Picture image={imageLibrary[26]} />
+                  <Picture image={imageLibrary[53]} />
                   <p></p>
               </div>
             </Carousel>
           </LazyLoad>
         </div>
         <p className='latest-work__detail'>
-        Introducing our latest masterpiece: a visual tale meticulously crafted by BlackEye Visuals. Dive into a world where creativity knows no bounds and authenticity reigns supreme
-        </p>
+        "Experience a visual journey through diverse narratives, capturing fleeting beauty and the delicate dance between chaos and tranquility. Each photograph is a brushstroke of our human experience."        </p>
         <LazyLoad>
-          <Picture extraClasses='latest-work__sample' image={imageLibrary[20]} />
+          <Picture extraClasses='latest-work__sample' image={imageLibrary[33]} />
         </LazyLoad>
       </div>
 

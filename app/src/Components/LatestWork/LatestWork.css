@@ -34,7 +34,6 @@
         grid-area: c;
         max-width: none;
         max-height: 100%;
-        border: 1px solid white;
     }
 
     .latest-work__carousel-container {
