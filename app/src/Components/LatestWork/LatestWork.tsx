@@ -20,7 +20,6 @@ export default function LatestWork() {
           </p>
 
         <div className="latest-work__carousel-container">
-          <LazyLoad>
             <Carousel showArrows={!menuOpen} showIndicators={!menuOpen} showThumbs={false}  showStatus={false} autoPlay={true} infiniteLoop={true} interval={5000} preventMovementUntilSwipeScrollTolerance={true}>
               <div>
                 <Picture image={imageLibrary[54]} />
@@ -35,7 +34,6 @@ export default function LatestWork() {
                   <p></p>
               </div>
             </Carousel>
-          </LazyLoad>
         </div>
         <p className='latest-work__detail'>
         "Experience a visual journey through diverse narratives, capturing fleeting beauty and the delicate dance between chaos and tranquility. Each photograph is a brushstroke of our human experience."        </p>
