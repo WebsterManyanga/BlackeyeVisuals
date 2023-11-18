@@ -24,7 +24,6 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="portfolio__container">
         <div className='carousel-container'>
-          <LazyLoad>
             <Carousel showArrows={!menuOpen} showIndicators={!menuOpen} showThumbs={false} showStatus={false} autoPlay={true} infiniteLoop={true} interval={5000} preventMovementUntilSwipeScrollTolerance={true} >
               <div>
                 <Picture image={imageLibrary[12]} />
@@ -45,7 +44,6 @@ export default function Portfolio() {
                 <Picture image={imageLibrary[49]} />
               </div>
             </Carousel>
-          </LazyLoad>
         </div>
           <p>
             "Welcome to BlackEye Visuals, where creativity meets authenticity in every frame. We are passionate about capturing moments that tell your unique story through the lens of our creative vision. Explore our portfolio and let our images speak to the genuine emotions, vivid colors, and captivating compositions that define our work. Join us on a journey of visual storytelling, where every shot is a masterpiece of your own narrative"

@@ -6,7 +6,6 @@ import LazyLoad from "react-lazy-load";
 const Picture = ({image, extraClasses = ''}: PropType) => {
   const [loaded, setLoaded] = useState(false);
 
-  console.log(loaded);
 
   return (
     <>

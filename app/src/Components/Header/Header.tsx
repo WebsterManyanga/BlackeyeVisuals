@@ -4,19 +4,11 @@ import Socials from '../Socials/Socials'
 import {BsArrowRight} from 'react-icons/bs';
 import {slide as Menu} from 'react-burger-menu'
 import { useGlobalState } from '../../state';
-import bg1_mobile from '../../assets/min/A-31.jpg'
-import bg1_desktop from '../../assets/min/A-31(2).jpg'
-import bg2_mobile from '../../assets/min/A-21.jpg'
-import bg2_desktop from '../../assets/min/A-21.jpg'
-import Media from 'react-media';
-
-
 
 export default function Header() {
   
   const [menuOpen, setMenuOpen] = useGlobalState('menuOpen');
   const [socialsActive, setSocialsActive] = useGlobalState('socialsActive');
-  const [background, setBackground] = useState('bg1');
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -39,7 +31,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`header ${background}`} id='home'>
+      <header className={`header`} id='home'>
         <div className='header__bg2'></div>
         <nav className='header__nav'>
           <Menu isOpen={menuOpen} onOpen={menuIsOpen} onClose={() => menuIsClosed()}>
