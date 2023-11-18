@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ad5f94b.css",
-    "main.js": "/static/js/main.204f1a82.js",
+    "main.css": "/static/css/main.5c8ba739.css",
+    "main.js": "/static/js/main.ef437d37.js",
     "static/js/787.0f8d78ff.chunk.js": "/static/js/787.0f8d78ff.chunk.js",
     "static/media/A-45.jpg": "/static/media/A-45.1ee6ea4950ea1c028841.jpg",
     "static/media/A-17.jpg": "/static/media/A-17.2d04da4c9d57d3df1f96.jpg",
@@ -57,15 +57,16 @@
     "static/media/A-38.jpg": "/static/media/A-38.98b4e5f9d00b77919584.jpg",
     "static/media/A-44.jpg": "/static/media/A-44.bf8e24d5c865c90cfc7f.jpg",
     "static/media/A-41.jpg": "/static/media/A-41.62afa4c6e21b429024dd.jpg",
+    "static/media/A-21(2)-.jpg": "/static/media/A-21(2)-.b75b08695c9aff9ed382.jpg",
     "static/media/WENDY WEBSITE.jpg": "/static/media/WENDY WEBSITE.d6c124945560e0c60e7e.jpg",
     "static/media/A-8.jpg": "/static/media/A-8.6f5f55dd3d63bc8d7518.jpg",
     "index.html": "/index.html",
-    "main.7ad5f94b.css.map": "/static/css/main.7ad5f94b.css.map",
-    "main.204f1a82.js.map": "/static/js/main.204f1a82.js.map",
+    "main.5c8ba739.css.map": "/static/css/main.5c8ba739.css.map",
+    "main.ef437d37.js.map": "/static/js/main.ef437d37.js.map",
     "787.0f8d78ff.chunk.js.map": "/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ad5f94b.css",
-    "static/js/main.204f1a82.js"
+    "static/css/main.5c8ba739.css",
+    "static/js/main.ef437d37.js"
   ]
 }
