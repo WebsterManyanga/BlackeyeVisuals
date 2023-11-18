@@ -40,6 +40,7 @@ export default function Header() {
   return (
     <>
       <header className={`header ${background}`} id='home'>
+        <div className='header__bg2'></div>
         <nav className='header__nav'>
           <Menu isOpen={menuOpen} onOpen={menuIsOpen} onClose={() => menuIsClosed()}>
             <a href="#home" onClick={() => closeMenu()}>Home</a>
