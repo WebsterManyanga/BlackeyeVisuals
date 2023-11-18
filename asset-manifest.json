@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c8ba739.css",
+    "main.css": "/static/css/main.fc6094b1.css",
     "main.js": "/static/js/main.ef437d37.js",
     "static/js/787.0f8d78ff.chunk.js": "/static/js/787.0f8d78ff.chunk.js",
     "static/media/A-45.jpg": "/static/media/A-45.1ee6ea4950ea1c028841.jpg",
@@ -61,12 +61,12 @@
     "static/media/WENDY WEBSITE.jpg": "/static/media/WENDY WEBSITE.d6c124945560e0c60e7e.jpg",
     "static/media/A-8.jpg": "/static/media/A-8.6f5f55dd3d63bc8d7518.jpg",
     "index.html": "/index.html",
-    "main.5c8ba739.css.map": "/static/css/main.5c8ba739.css.map",
+    "main.fc6094b1.css.map": "/static/css/main.fc6094b1.css.map",
     "main.ef437d37.js.map": "/static/js/main.ef437d37.js.map",
     "787.0f8d78ff.chunk.js.map": "/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c8ba739.css",
+    "static/css/main.fc6094b1.css",
     "static/js/main.ef437d37.js"
   ]
 }
