@@ -181,6 +181,7 @@
         gap: 47px;
         width: 80%;
         margin-left: 60px;
+        transition: z-index 3s;
     }
 
     .header__text h1{

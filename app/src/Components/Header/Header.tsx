@@ -27,7 +27,7 @@ export default function Header() {
     setMenuOpen(false);
   }
 
-  const zIndex = menuOpen ? {'zIndex': '0'} : {'zIndex': '1'};
+  const zIndex = menuOpen ? {'zIndex': '0', 'transition': 'z-index 0s'} : {'zIndex': '1', 'transition': 'z-index 1s'};
 
   return (
     <>
