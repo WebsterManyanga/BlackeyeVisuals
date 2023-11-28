@@ -1,11 +1,15 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
-    width: 40px;
-    height: 35px;
+    width: 30px;
+    height: 26px;
     left: 20px;
     top: 20px;
     z-index: 2;
+  }
+
+  .bm-burger-button button {
+    padding: 70px 70px 0px 0px !important;
   }
   
   /* Color/shape of burger icon bars */
@@ -24,6 +28,10 @@
   .bm-cross-button {
     height: 30px !important;
     width: 30px !important;
+  }
+
+  .bm-cross-button button {
+    padding: 70px 70px 0px 0px !important;
   }
   
   /* Color/shape of close button cross */
@@ -89,6 +97,10 @@
   }
 
   @media screen and (min-width: 768px) {
+    .bm-burger-button {
+      width: 35px;
+      height: 30px;
+    }
     .bm-menu-wrap {
       width: 40% !important;
       
