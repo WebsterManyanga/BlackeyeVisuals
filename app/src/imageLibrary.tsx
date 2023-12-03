@@ -54,7 +54,6 @@ import r2 from './assets/recents/Chelsea(1).png';
 import r3 from './assets/recents/WENDY WEBSITE.jpg';
 import { PictureType } from './Components/types'
 import portfolio from './assets/min/morePortfolio.jpg'
-import { BsRepeat1 } from 'react-icons/bs'
 
 
 export const imageLibrary: PictureType[] = [
@@ -271,7 +270,7 @@ export const imageLibrary: PictureType[] = [
     },
     {
         image: pic42,
-        model: 'WEBDY',
+        model: 'WENDY',
         blurHash: 'LEIp*f4.Le=cD3rq:lJm]CWo5li{'
     },
     {

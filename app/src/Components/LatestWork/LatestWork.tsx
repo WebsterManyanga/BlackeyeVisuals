@@ -35,9 +35,7 @@ export default function LatestWork() {
               </div>
             </Carousel>
         </div>
-        <LazyLoad>
           <Picture extraClasses='latest-work__sample' image={imageLibrary[33]} />
-        </LazyLoad>
       </div>
 
       
