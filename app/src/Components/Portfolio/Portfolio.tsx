@@ -7,6 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 import { useGlobalState } from '../../state';
 import { imageLibrary } from '../../imageLibrary';
 import Picture from '../Picture/Picture';
+import { Link } from 'react-router-dom';
 
 export default function Portfolio() {
 
@@ -44,8 +45,7 @@ export default function Portfolio() {
           </p>  
             <Picture image={imageLibrary[48]} extraClasses='portfolio__sample'/>
       </div>
-      <button className='portfolio__more'><a href='https://www.instagram.com/blackeye_visuals_/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=='>See More<BsArrowRight /></a></button>
-
+      <button className='portfolio__more'><Link to='./more-pictures'>See More<BsArrowRight /></Link></button>
       </div>
 
     </section>
