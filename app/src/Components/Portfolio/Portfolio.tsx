@@ -8,7 +8,6 @@ import { useGlobalState } from '../../state';
 import { imageLibrary } from '../../imageLibrary';
 import Picture from '../Picture/Picture';
 import { Link } from 'react-router-dom';
-
 export default function Portfolio() {
 
   const [menuOpen, setMenuOpen] = useGlobalState('menuOpen');
