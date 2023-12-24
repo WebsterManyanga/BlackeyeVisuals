@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useRef, useState } from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
 import LatestWork from './Components/LatestWork/LatestWork';
@@ -30,7 +30,8 @@ function App() {
       const font = new FontFaceObserver('Cinzel Decorative');
       font.load().then(() => setLoaded(true));
     });
-  }, [])
+  }, []);
+
 
   return (
     loaded ? 
