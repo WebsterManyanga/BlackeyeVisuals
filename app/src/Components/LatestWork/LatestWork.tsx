@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useGlobalState } from '../../state';
 import { imageLibrary } from '../../imageLibrary';
 import Picture from '../Picture/Picture';
-import LazyLoad from 'react-lazy-load';
 
 
 export default function LatestWork() {
@@ -26,7 +25,7 @@ export default function LatestWork() {
                 <p></p>
               </div>
               <div>
-                <Picture image={imageLibrary[55]} />
+                <Picture image={imageLibrary[54]} />
                 <p></p>
               </div>
               <div>

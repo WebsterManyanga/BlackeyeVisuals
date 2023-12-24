@@ -9,14 +9,7 @@ const Picture = ({image, extraClasses = ''}: PropType) => {
   return (
     <>
     {!loaded && 
-      <Blurhash 
-        hash={image.blurHash}
-        width={400}
-        height={500}
-        resolutionX={32}
-        resolutionY={32}
-        punch={1}
-      />
+      <img className={extraClasses} src={image.blurImage} alt="portrait" loading="lazy"/>
     }
       <img 
         className={extraClasses}

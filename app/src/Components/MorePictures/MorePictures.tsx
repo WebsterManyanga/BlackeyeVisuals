@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { imageLibrary } from '../../imageLibrary'
 import Picture from '../Picture/Picture'
 import './MorePictures.css';
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
  
 
 export default function MorePictures() {
@@ -30,14 +31,18 @@ export default function MorePictures() {
   const layoutCssClass = windowWidth >= 768 ? 'more-projects__pictures--lg' : 'more-projects__pictures--sm'
 
   return (
-    <section className='more-projects'>
-      <header className='more-projects__header'>
-        <h1>Blackeye <span>V</span>isuals</h1>
-      </header>'
-      <div className={`more-projects__pictures ${layoutCssClass}`} >
-        {splitImageBlocks.map(block => <ul>{block.map(image => <li><Picture image={image} /></li>)}</ul>)}
-      </div>
-    </section>
+    <>
+      <ScrollToTop />
+      <section className='more-projects'>
+        <header className='more-projects__header'>
+          <h1>Blackeye <span>V</span>isuals</h1>
+        </header>'
+        <div className={`more-projects__pictures ${layoutCssClass}`} >
+          {splitImageBlocks.map(block => <ul>{block.map(image => <li><Picture image={image} /></li>)}</ul>)}
+        </div>
+        </section>
+
+    </>
   )
 }
 
