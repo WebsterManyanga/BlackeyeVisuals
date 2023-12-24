@@ -38,6 +38,9 @@
     gap: 5px;
 }
 
+.more-projects__pictures li {
+    margin-bottom: 5px;
+}
 .more-projects__pictures--sm {
     grid-template-columns: 50% 50%;
 }
