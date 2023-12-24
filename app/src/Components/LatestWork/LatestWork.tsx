@@ -39,13 +39,13 @@ export default function LatestWork() {
         <div className='carousel-container'>
         <Carousel responsive={responsive} infinite arrows={!menuOpen}>
               <div>
-                <Picture image={imageLibrary[54]} />
-              </div>
-              <div>
-                <Picture image={imageLibrary[54]} />
+                <Picture image={imageLibrary[52]} />
               </div>
               <div>
                 <Picture image={imageLibrary[53]} />
+              </div>
+              <div>
+                <Picture image={imageLibrary[54]} />
               </div>
             </Carousel>
         </div>

@@ -52,14 +52,14 @@ export default function Portfolio() {
                 <Picture image={imageLibrary[9]} />
               </div>
               <div>
-                <Picture image={imageLibrary[49]} />
+                <Picture image={imageLibrary[48]} />
               </div>
             </Carousel>
         </div>
           <p>
             "Welcome to BlackEye Visuals, where creativity meets authenticity in every frame. We are passionate about capturing moments that tell your unique story through the lens of our creative vision. Explore our portfolio and let our images speak to the genuine emotions, vivid colors, and captivating compositions that define our work. Join us on a journey of visual storytelling, where every shot is a masterpiece of your own narrative"
           </p>  
-            <Picture image={imageLibrary[48]} extraClasses='portfolio__sample'/>
+            <Picture image={imageLibrary[47]} extraClasses='portfolio__sample'/>
       </div>
       <Link to='./more-pictures' className='portfolio__more'>See More<BsArrowRight /></Link>
       </div>
