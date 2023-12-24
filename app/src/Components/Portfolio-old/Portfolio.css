@@ -1,0 +1,130 @@
+.portfolio {
+    position: relative;
+}
+.portfolio img {
+    max-width: 100%;
+}
+
+.portfolio p {
+    margin: 35px 0;
+}
+
+.portfolio button {
+    font-size: 25px;
+    background: none;
+    border: none;
+    color: #D0B8AC;
+    display: block;
+    margin: 56px auto 0 auto;
+    transition: transform 0.5s;
+    
+}
+
+.portfolio button a {
+    color: #D0B8AC;
+}
+
+.portfolio button:hover {
+    transform: scale(1.2);
+}
+
+.more-portfolio {
+    margin-top: 80px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.more-portfolio__photos {
+    width: 100%;
+    height: auto;
+    position: relative;
+    user-select: none;
+}
+
+.more-portfolio img {
+    max-height: 100%;
+    z-index: 2;
+}
+
+.portfolio .more-portfolio__close {
+    margin: 0 12px 0 auto;
+    font-size: 50px;
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;}
+
+@media screen and (min-width: 768px) {
+
+    .portfolio {
+        height: fit-content !important;
+    }
+
+    .lessPortfolio {
+        height: 100vh;
+        box-sizing: border-box;
+
+    }
+
+    .portfolio__container {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 40% 60%;
+        grid-template-areas: "a b" "a c";
+        gap: 0 45px;
+        box-sizing: border-box;
+        height: 80vh;
+        overflow:hidden
+    }
+    
+
+    .portfolio__container .carousel-container {
+        grid-area: a;
+    }
+
+    .portfolio p {
+        grid-area: b;
+        margin: 0;
+        width: 80%;
+        line-height: 20px;
+    }
+
+    .portfolio__sample {
+        grid-area: c;
+        max-width: none;
+        max-height: 100%;
+    }
+
+    .portfolio__more  {
+        position: absolute;
+        bottom: 5px;
+        right: 50px;
+    }
+
+    .carousel-container .carousel-root {
+        height: 100%;
+    }
+
+    .portfolio__container .carousel-container .carousel-slider {
+        height: 100%;
+    }
+
+    .portfolio__container .carousel-container .slider-wrapper {
+        height: 100%;
+    }
+    
+    .portfolio__container .carousel-container .slider {
+        height: 100%;
+    }
+
+    .portfolio__container .carousel-container .slide {
+        height: 100%;
+    }
+
+    .portfolio__container .carousel-container .slide div {
+        height: 100%;
+    }
+
+}

@@ -1,0 +1,59 @@
+.picture-wrapper {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative  ;
+}
+
+.carousel-container .picture-wrapper {
+  width: fit-content;
+  height: 100%;
+}
+
+.test {
+
+}
+
+.picture-wrapper--loading::after {
+  position: absolute;
+  top: 50% ;
+  left: 50%;
+  content: '';
+  width: 30px;
+  height: 30px;
+  border: 2px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+
+}
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} 
+
+.picture-wrapper img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+
+}
+
+.picture__show {
+  display: block;
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.picture__hide {
+  display: none;
+  opacity: 0; 
+}
+

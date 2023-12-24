@@ -11,6 +11,7 @@
     "@types/node": "^16.18.60",
     "@types/react": "^18.2.35",
     "@types/react-dom": "^18.2.14",
+    "@types/react-router-hash-link": "^2.4.9",
     "fontfaceobserver": "^2.3.0",
     "gh-pages": "^6.0.0",
     "react": "^18.2.0",
@@ -22,7 +23,10 @@
     "react-lazy-load": "^4.0.1",
     "react-loader-spinner": "^5.4.5",
     "react-media": "^1.10.0",
+    "react-multi-carousel": "^2.8.4",
     "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.21.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"

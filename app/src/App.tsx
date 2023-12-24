@@ -1,7 +1,6 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useRef, useState } from 'react';
 import './App.css';
 import Header from './Components/Header/Header';
-import Portfolio from './Components/Portfolio/Portfolio';
 import LatestWork from './Components/LatestWork/LatestWork';
 import Prices from './Components/Prices/Prices';
 import Footer from './Components/Footer/Footer';
@@ -10,6 +9,7 @@ import img1 from './assets/min/A-31.jpg';
 import img2 from  './assets/A-21.jpg';
 import img3 from './assets/A-31(3).jpg';
 import img4 from './assets/A-21(2)-.jpg';
+import Portfolio from './Components/Portfolio/Portfolio';
 
 
 function App() {
@@ -30,7 +30,8 @@ function App() {
       const font = new FontFaceObserver('Cinzel Decorative');
       font.load().then(() => setLoaded(true));
     });
-  }, [])
+  }, []);
+
 
   return (
     loaded ? 

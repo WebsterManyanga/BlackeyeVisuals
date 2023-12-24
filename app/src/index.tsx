@@ -3,13 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
+import MorePictures from './Components/MorePictures/MorePictures';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const router = createHashRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <p>Something went wrong</p>
+  },
+  {
+    path: '/more-pictures',
+    element: <MorePictures />
+  }
+])
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

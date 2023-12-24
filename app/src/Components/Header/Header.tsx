@@ -4,11 +4,13 @@ import Socials from '../Socials/Socials'
 import {BsArrowRight} from 'react-icons/bs';
 import {slide as Menu} from 'react-burger-menu'
 import { useGlobalState } from '../../state';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Header() {
   
   const [menuOpen, setMenuOpen] = useGlobalState('menuOpen');
   const [socialsActive, setSocialsActive] = useGlobalState('socialsActive');
+  
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -35,16 +37,15 @@ export default function Header() {
         <div className='header__bg2'></div>
         <nav className='header__nav'>
           <Menu isOpen={menuOpen} onOpen={menuIsOpen} onClose={() => menuIsClosed()}>
-            <a href="#home" onClick={() => closeMenu()}>Home</a>
-            <a href="#portfolio" onClick={() => closeMenu()}>Portfolio</a>
-            <a href="#recents" onClick={() => closeMenu()}>Recent Work</a>
-            <a href="#prices" onClick={() => closeMenu()}>Prices</a>
-            <a href="#reviews" onClick={() => closeMenu()}>Reviews</a>
-            <a href='#home' onClick={() => {closeMenu(); setSocialsActive(true)}}>Contacts</a>
+            <HashLink to="#home" onClick={() => closeMenu()}>Home</HashLink>
+            <HashLink to="#portfolio" onClick={() => closeMenu()}>Portfolio</HashLink>
+            <HashLink to="#recents" onClick={() => closeMenu()}>Recent Work</HashLink>
+            <HashLink to="#prices" onClick={() => closeMenu()}>Prices</HashLink>
+            <HashLink to='#home' onClick={() => {closeMenu(); setSocialsActive(true)}}>Contacts</HashLink>
           </Menu>
-          <a className='nav__item' href='#portfolio'>Portfolio</a>
-          <a className='nav__item' href='#prices'>Service & Price</a>
-          <a className='nav__item' href='#home' onClick={() => setSocialsActive(!socialsActive)}>Contact</a>
+          <HashLink className='nav__item' to='#portfolio'>Portfolio</HashLink>
+          <HashLink className='nav__item' to='#prices'>Service & Price</HashLink>
+          <HashLink className='nav__item' to='#home' onClick={() => setSocialsActive(!socialsActive)}>Contact</HashLink>
         </nav>
         <div className='header__text' style={zIndex}>
             <h1>Blackeye Visuals</h1>
