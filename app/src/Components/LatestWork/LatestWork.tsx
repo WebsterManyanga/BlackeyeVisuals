@@ -6,7 +6,10 @@ import Carousel from "react-multi-carousel";
 import { imageLibrary } from '../../imageLibrary';
 import Picture from '../Picture/Picture';
 import { Link } from 'react-router-dom';
+import { useGlobalState } from '../../state';
 export default function LatestWork() {
+
+  const [menuOpen, setMenuOpen] = useGlobalState('menuOpen');
 
   const responsive = {
     superLargeDesktop: {
@@ -34,7 +37,7 @@ export default function LatestWork() {
       <h1>Our Latest Work</h1>
       <div className="portfolio__container">
         <div className='carousel-container'>
-            <Carousel responsive={responsive} infinite>
+        <Carousel responsive={responsive} infinite arrows={!menuOpen}>
               <div>
                 <Picture image={imageLibrary[54]} />
               </div>

@@ -6,8 +6,9 @@ import Carousel from "react-multi-carousel";
 import { imageLibrary } from '../../imageLibrary';
 import Picture from '../Picture/Picture';
 import { Link } from 'react-router-dom';
+import { useGlobalState } from '../../state';
 export default function Portfolio() {
-
+  const [menuOpen, setMenuOpen] = useGlobalState('menuOpen');
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -34,7 +35,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="portfolio__container">
         <div className='carousel-container'>
-            <Carousel responsive={responsive} infinite>
+            <Carousel responsive={responsive} infinite arrows={!menuOpen}>
               <div>
                 <Picture image={imageLibrary[12]} />
               </div>
