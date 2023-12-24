@@ -3,6 +3,7 @@ import { imageLibrary } from '../../imageLibrary'
 import Picture from '../Picture/Picture'
 import './MorePictures.css';
 import ScrollToTop from '../ScrollToTop/ScrollToTop';
+import { Link } from 'react-router-dom';
  
 
 export default function MorePictures() {
@@ -35,7 +36,7 @@ export default function MorePictures() {
       <ScrollToTop />
       <section className='more-projects'>
         <header className='more-projects__header'>
-          <h1>Blackeye <span>V</span>isuals</h1>
+          <Link to='/'><h1>Blackeye <span>V</span>isuals</h1></Link>
         </header>'
         <div className={`more-projects__pictures ${layoutCssClass}`} >
           {splitImageBlocks.map(block => <ul>{block.map(image => <li><Picture image={image} /></li>)}</ul>)}

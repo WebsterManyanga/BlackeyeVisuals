@@ -5,6 +5,15 @@
   position: relative  ;
 }
 
+.carousel-container .picture-wrapper {
+  width: fit-content;
+  height: 100%;
+}
+
+.test {
+
+}
+
 .picture-wrapper--loading::after {
   position: absolute;
   top: 50% ;
@@ -20,6 +29,7 @@
   animation: rotation 1s linear infinite;
 
 }
+
 @keyframes rotation {
   0% {
       transform: rotate(0deg);
@@ -28,7 +38,6 @@
       transform: rotate(360deg);
   }
 } 
-
 
 .picture-wrapper img {
   object-fit: cover;

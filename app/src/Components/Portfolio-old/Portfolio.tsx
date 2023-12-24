@@ -1,32 +1,16 @@
 import React,  {useState } from 'react'
 import './Portfolio.css'
 import {BsArrowLeft, BsArrowRight} from 'react-icons/bs';
-import "react-multi-carousel/lib/styles.css";
-import Carousel from "react-multi-carousel";
+import {AiOutlineClose} from 'react-icons/ai';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import { useGlobalState } from '../../state';
 import { imageLibrary } from '../../imageLibrary';
 import Picture from '../Picture/Picture';
 import { Link } from 'react-router-dom';
 export default function Portfolio() {
 
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 1
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 1
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
+  const [menuOpen, setMenuOpen] = useGlobalState('menuOpen');
  
   return (
     <section className='feature portfolio' id='portfolio'>
@@ -34,9 +18,9 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
       <div className="portfolio__container">
         <div className='carousel-container'>
-            <Carousel responsive={responsive} infinite>
+            <Carousel showArrows={!menuOpen} showIndicators={!menuOpen} showThumbs={false} showStatus={false} autoPlay={true} infiniteLoop={true} interval={5000} preventMovementUntilSwipeScrollTolerance={true} >
               <div>
-                <Picture image={imageLibrary[12]} />
+                <Picture image={imageLibrary[12]} extraClasses='test'/>
               </div>
               <div>
                 <Picture image={imageLibrary[3]} />
@@ -60,7 +44,7 @@ export default function Portfolio() {
           </p>  
             <Picture image={imageLibrary[48]} extraClasses='portfolio__sample'/>
       </div>
-      <Link to='./more-pictures' className='portfolio__more'>See More<BsArrowRight /></Link>
+      <button className='portfolio__more'><Link to='./more-pictures'>See More<BsArrowRight /></Link></button>
       </div>
 
     </section>

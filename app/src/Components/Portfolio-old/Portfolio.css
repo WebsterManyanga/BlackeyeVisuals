@@ -9,18 +9,22 @@
     margin: 35px 0;
 }
 
-.portfolio__more {
+.portfolio button {
     font-size: 25px;
     background: none;
     border: none;
     color: #D0B8AC;
     display: block;
+    margin: 56px auto 0 auto;
     transition: transform 0.5s;
-    width: fit-content;
-    margin: 30px auto;
+    
 }
 
-.portfolio__more:hover {
+.portfolio button a {
+    color: #D0B8AC;
+}
+
+.portfolio button:hover {
     transform: scale(1.2);
 }
 
@@ -66,11 +70,13 @@
 
     .portfolio__container {
         display: grid;
-        grid-template-columns: 30% 40%;
-        grid-template-rows: 50% 60%;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 40% 60%;
         grid-template-areas: "a b" "a c";
         gap: 0 45px;
         box-sizing: border-box;
+        height: 80vh;
+        overflow:hidden
     }
     
 
@@ -85,15 +91,16 @@
         line-height: 20px;
     }
 
-
     .portfolio__sample {
         grid-area: c;
-        height: 100%;
-        width: auto !important;
+        max-width: none;
+        max-height: 100%;
     }
 
-    .portfolio .picture-wrapper {
-        width: fit-content ;
+    .portfolio__more  {
+        position: absolute;
+        bottom: 5px;
+        right: 50px;
     }
 
     .carousel-container .carousel-root {
@@ -120,15 +127,4 @@
         height: 100%;
     }
 
-}
-
-@media screen and (min-width: 1024px) {
-    .portfolio__container {
-        display: grid;
-        grid-template-columns: 30% 40%;
-        grid-template-rows: 30% 60%;
-        grid-template-areas: "a b" "a c";
-        gap: 0 45px;
-        box-sizing: border-box;
-    }
 }
