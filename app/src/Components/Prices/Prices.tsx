@@ -20,7 +20,7 @@ export default function Prices() {
         <div className='prices__item'>
           <div className='price__title'>
               <h2>Portrait</h2>
-              <p>200PLN</p>
+              <p>250PLN</p>
           </div>
           <p>
               This includes individual, family, and group portraits, as well as headshots for business and corporate purposes.
@@ -29,7 +29,7 @@ export default function Prices() {
         <div className='prices__item'>
           <div className='price__title'>
               <h2>Lifestyle</h2>
-              <p>200PLN</p>
+              <p>250PLN</p>
           </div>
           <p>
           One hour of shooting with an agreed number of pictures and price may flactuate depending on the concept of the shoot.
