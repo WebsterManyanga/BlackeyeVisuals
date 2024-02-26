@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf4886ad.css",
-    "main.js": "/static/js/main.65f481e0.js",
+    "main.css": "/static/css/main.392e6a66.css",
+    "main.js": "/static/js/main.2370ebab.js",
     "static/js/787.0f8d78ff.chunk.js": "/static/js/787.0f8d78ff.chunk.js",
     "static/media/A-45.jpg": "/static/media/A-45.1ee6ea4950ea1c028841.jpg",
+    "static/media/A-56.jpg": "/static/media/A-56.c9d21612bb1b4daf2a5f.jpg",
+    "static/media/A-57.jpg": "/static/media/A-57.8edceb6fea8f038370cf.jpg",
     "static/media/A-17.jpg": "/static/media/A-17.2d04da4c9d57d3df1f96.jpg",
     "static/media/A-52.jpg": "/static/media/A-52.e097cf984009a692d793.jpg",
     "static/media/A-14.jpg": "/static/media/A-14.79ebb2cb61196a6fc81f.jpg",
@@ -45,6 +47,7 @@
     "static/media/A-34.jpg": "/static/media/A-34.eff4aa896bb3034fc6d7.jpg",
     "static/media/A-3.jpg": "/static/media/A-3.772cc247e6f74ce520c0.jpg",
     "static/media/A-48.jpg": "/static/media/A-48.7ed073a63d54190ed454.jpg",
+    "static/media/A-58.jpg": "/static/media/A-58.7d8c775af1966660ba21.jpg",
     "static/media/A-31(3).jpg": "/static/media/A-31(3).56c3f977e21fe10875ea.jpg",
     "static/media/A-23.jpg": "/static/media/A-23.b5b305545c1095402052.jpg",
     "static/media/A-25.jpg": "/static/media/A-25.6210d4105f94e12804b0.jpg",
@@ -64,12 +67,12 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.cf4886ad.css.map": "/static/css/main.cf4886ad.css.map",
-    "main.65f481e0.js.map": "/static/js/main.65f481e0.js.map",
+    "main.392e6a66.css.map": "/static/css/main.392e6a66.css.map",
+    "main.2370ebab.js.map": "/static/js/main.2370ebab.js.map",
     "787.0f8d78ff.chunk.js.map": "/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf4886ad.css",
-    "static/js/main.65f481e0.js"
+    "static/css/main.392e6a66.css",
+    "static/js/main.2370ebab.js"
   ]
 }
