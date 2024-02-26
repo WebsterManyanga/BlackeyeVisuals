@@ -28,6 +28,10 @@
     text-decoration-color: #D0B8AC;
     text-underline-offset: 8px;
 }
+
+.price__title p {
+  font-size: 20px;
+}
  
 
 .book-btn {

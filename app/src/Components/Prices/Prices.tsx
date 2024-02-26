@@ -1,7 +1,6 @@
 import React from "react";
 import "./Prices.css";
 import sample from "../../assets/pexels-atahan-demir-14696715 1.png";
-import { BsArrowRight } from "react-icons/bs";
 import { imageLibrary } from "../../imageLibrary";
 import Picture from "../Picture/Picture";
 import LazyLoad from "react-lazy-load";
@@ -51,7 +50,6 @@ export default function Prices() {
           <div className="prices__item">
             <div className="price__title">
               <h2>Wedding</h2>
-              <p>2500PLN</p>
             </div>
             <p>Capturing the special moments and details of weddings.</p>
           </div>

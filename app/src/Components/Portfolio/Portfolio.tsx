@@ -37,16 +37,16 @@ export default function Portfolio() {
         <div className='carousel-container'>
             <Carousel responsive={responsive} infinite arrows={!menuOpen}>
               <div>
-                <Picture image={imageLibrary[12]} />
+                <Picture image={imageLibrary[56]} />
               </div>
               <div>
-                <Picture image={imageLibrary[3]} />
+                <Picture image={imageLibrary[35]} />
               </div>
               <div>
                 <Picture image={imageLibrary[32]} />
               </div>
               <div>
-                <Picture image={imageLibrary[35]} />
+                <Picture image={imageLibrary[13]} />
               </div>
               <div>
                 <Picture image={imageLibrary[9]} />
