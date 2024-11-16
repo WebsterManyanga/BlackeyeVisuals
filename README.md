@@ -9,4 +9,4 @@ Welcome to my photography portfolio website! This project is built using TypeScr
 
 ## Website
 
-Visit my photography portfolio at [blackeyevisuals.pl](https://blackeyevisuals.pl/).
+Visit my photography portfolio at [blackeyevisuals.com](https://blackeyevisuals.com/).
